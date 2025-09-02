@@ -3,6 +3,7 @@
 This project is part of 42 School – CPP Module 01 (Exercise 04).
 It is a simple reimplementation of a search and replace tool, similar to sed, written in modern C++.  
 <br>
+
 ## 📖 Description
 
 The program takes three arguments:
@@ -18,6 +19,7 @@ The program takes three arguments:
 
 It creates a new file called <filename>.replace.txt where every occurrence of <s1> is replaced with <s2>.  
 <br>
+
 ## ⚙️ Features
 
 - Reads the input file line by line using std::getline
@@ -30,6 +32,7 @@ It creates a new file called <filename>.replace.txt where every occurrence of <s
 
 - Provides basic error handling (invalid arguments, empty search string, file not found)  
 <br>
+
 ## 🖥️ Example
 
 Input file (example.txt):
@@ -49,7 +52,9 @@ hello 42
 42 says hello
 ```
 <br>
+
 ## 📂 File Structure
+
 ```arduino
 .
 ├── sed.hpp
@@ -70,6 +75,7 @@ make
 - An alternative solution could use substr.
 - This project was a great exercise in file I/O, string manipulation, and memory safety in C++.
 <br>
+
 ## 📜 License
 
 This code is for educational purposes only.
