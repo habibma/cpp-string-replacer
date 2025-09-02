@@ -1,7 +1,7 @@
 # Sed is for Losers
 
 This project is part of 42 School – CPP Module 01 (Exercise 04).
-It is a simple reimplementation of a search and replace tool, similar to sed, written in modern C++.
+It is a simple reimplementation of a search and replace tool, similar to sed, written in modern C++.  
 
 ## 📖 Description
 
@@ -16,7 +16,7 @@ The program takes three arguments:
 
 - \<s2> → String to replace <s1> with
 
-It creates a new file called <filename>.replace.txt where every occurrence of <s1> is replaced with <s2>.
+It creates a new file called <filename>.replace.txt where every occurrence of <s1> is replaced with <s2>.  
 
 ## ⚙️ Features
 
@@ -28,7 +28,7 @@ It creates a new file called <filename>.replace.txt where every occurrence of <s
 
 - Preserves original file structure (no extra newline added at the end)
 
-- Provides basic error handling (invalid arguments, empty search string, file not found)
+- Provides basic error handling (invalid arguments, empty search string, file not found)  
 
 ## 🖥️ Example
 
@@ -48,7 +48,7 @@ Output file (example.txt.replace.txt):
 hello 42
 42 says hello
 ```
-
+  
 ## 📂 File Structure
 ```arduino
 .
@@ -57,19 +57,19 @@ hello 42
 ├── main.cpp       # main program logic
 └── Makefile
 ```
-
+  
 ## 🚀 Build & Run
 ```bash
 make
 ./sed input.txt foo bar
 ```
-
+  
 ## 🧠 Notes
 
 - My approach uses erase + insert to perform replacements.
 - An alternative solution could use substr.
 - This project was a great exercise in file I/O, string manipulation, and memory safety in C++.
-
+  
 ## 📜 License
 
 This code is for educational purposes only.
