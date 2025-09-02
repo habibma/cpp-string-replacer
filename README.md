@@ -2,7 +2,7 @@
 
 This project is part of 42 School – CPP Module 01 (Exercise 04).
 It is a simple reimplementation of a search and replace tool, similar to sed, written in modern C++.  
-
+<br>
 ## 📖 Description
 
 The program takes three arguments:
